@@ -19,42 +19,39 @@ export default (() => {
 		</Helmet>
 		<Section id="catblock" padding="30px 0 80px 0" color="--light" background="--color-light">
 			<Override slot="SectionContent" justify-content="center" align-items="center" />
-			<Section>
-				<Override slot="SectionContent" width="100%" flex-direction="row" />
-				<Stack width="100%" gap="--cmp-stack-gap-small">
-					{"    "}
-					<StackItem width="70%" display="flex">
-						<Override slot="StackItemContent" align-items="center" />
-						<Text font="--headline2" color="--dark" margin="0px 0px 0px 0px" lg-font="normal 700 30px/1.2 Source Sans Pro, sans-serif">
-							Categories
-						</Text>
-						{"            "}
-					</StackItem>
-					{"    "}
-					<StackItem width="30%" display="flex">
-						<Override slot="StackItemContent" align-items="center" justify-content="flex-end" />
-						<Link
-							href="#"
-							transition="transform 0.1s ease-in-out 0s;"
-							transform="translateY(0px)"
-							text-decoration-line="initial"
-							padding="10px 22px 10px 22px"
-							color="--light"
-							font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
-							letter-spacing="2px"
-							border-radius="50px"
-							hover-transform="translateY(-3px)"
-							margin="3px 0px 0px 0px"
-							text-align="center"
-							background="--color-indigo"
-							lg-font="normal 600 15px/1.5 --fontFamily-googleSourceSansPro"
-						>
-							All Components
-						</Link>
-						{"            "}
-					</StackItem>
-				</Stack>
-			</Section>
+			<Stack width="100%" gap="--cmp-stack-gap-small">
+				{"    "}
+				<StackItem width="70%" display="flex">
+					<Override slot="StackItemContent" align-items="center" />
+					<Text font="--headline2" color="--dark" margin="0px 0px 0px 0px" lg-font="normal 700 30px/1.2 Source Sans Pro, sans-serif">
+						Categories
+					</Text>
+					{"            "}
+				</StackItem>
+				{"    "}
+				<StackItem width="30%" display="flex">
+					<Override slot="StackItemContent" align-items="center" justify-content="flex-end" />
+					<Link
+						href="#"
+						transition="transform 0.1s ease-in-out 0s;"
+						transform="translateY(0px)"
+						text-decoration-line="initial"
+						padding="10px 22px 10px 22px"
+						color="--light"
+						font="normal 600 16px/1.5 --fontFamily-googleSourceSansPro"
+						letter-spacing="2px"
+						border-radius="50px"
+						hover-transform="translateY(-3px)"
+						margin="3px 0px 0px 0px"
+						text-align="center"
+						background="--color-indigo"
+						lg-font="normal 600 15px/1.5 --fontFamily-googleSourceSansPro"
+					>
+						All Components
+					</Link>
+					{"            "}
+				</StackItem>
+			</Stack>
 			<Stack
 				width="100%"
 				gap="--cmp-stack-gap-small"
